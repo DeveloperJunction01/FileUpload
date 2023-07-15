@@ -1,24 +1,25 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Developer Junction</title>
     <link rel="stylesheet" href="/style.css">
 </head>
+
 <body>
-    <h1>Image File Upload</h1>
     <div class="container">
-        <form action="/uploadprofile" enctype="multipart/form-data" method="POST">
-            <h3>Upload Profile Picture:</h3>  
+        <h1>Image File Upload</h1>
+        <form class="form" action="/uploadprofile" enctype="multipart/form-data" method="POST">
+            <p>Upload Profile Picture:</p>
             <div class="uploadContainer">
-                <input type="file" name="mypic" required/> <br>
-                <button type="submit" >Upload</button>      
+                <input type="file" name="mypic" required></input>
+                <button type="submit">Upload</button>
             </div>
         </form>
     </div>
-    
+
 </body>
-  
+
 </html>
